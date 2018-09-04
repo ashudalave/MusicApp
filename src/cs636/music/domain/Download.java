@@ -3,17 +3,6 @@ package cs636.music.domain;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Download 
- * Like Murach, pg. 649 except:
- * --instead of productCode, has ref to the specific Track
- * --exposes download id as a property, in case we want to use it.
- * This class has setters, as a convenience for creating objects,
- * but these objects, once created, never change.
- * For two-DB implementation, replace User ref with unique key emailAddress.
- * A query accessing downloads and users is a distributed query,
- * and needs special handling.
- */
 public class Download implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private long id;

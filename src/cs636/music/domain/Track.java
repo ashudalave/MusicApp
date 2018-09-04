@@ -1,9 +1,5 @@
 package cs636.music.domain;
-/**
- * Track POJO: not in Murach's setup, pg. 649
- * Like Product, never changes once created
- * We could add constructor(s), drop setters
- */
+
 public class Track {
 	private long id;
 	private Product product;  	

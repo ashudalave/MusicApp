@@ -8,16 +8,6 @@ import java.util.Set;
 import cs636.music.domain.User;
 import cs636.music.domain.LineItem;
 
-/**
- * Invoice, like Murach pg. 649 except:
- * --Murach calls the id "invoiceNumber" vs. "invoiceId" here
- * --We use Set instead of List
- * --We use BigDecimal for money instead of double to keep pennies exact.
- * However, it does not strictly qualify as a ordinary JavaBean (definition pg. 175) 
- * because of lack of some setters.
- * The more general JavaBean (see Java tutorial at http://docs.oracle.com/javase/tutorial/javabeans)
- * allows read-only properties like the four fields here.
- */
 public class Invoice implements Serializable {
 
 	private static final long serialVersionUID = 1L;

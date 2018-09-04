@@ -1,14 +1,5 @@
 package cs636.music.domain;
 
-/**
- * LineItem: like Murach, pg. 649, except:
- * --The product field just the code, to avoid FKs from one DB to another
- * --The database id is exposed with getter/setter
- * --getTotal in Murach is called calculateItemTotal here
- * to signify it is not a table attribute.
- * --in prep. for music2, added the invoice field
- *
- */
 public class LineItem {
 
 	private long id;

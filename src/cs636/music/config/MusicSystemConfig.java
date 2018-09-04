@@ -19,12 +19,6 @@ import cs636.music.dao.UserDAO;
 import cs636.music.service.CatalogService;
 import cs636.music.service.SalesService;
 
-/**
- * @author Betty O'Neil
- *
- *         Configure the service objects, shut them down
- * 
- */
 
 public class MusicSystemConfig {
 	public static final String SOUND_BASE_URL = "http://www.cs.umb.edu/cs636/music1-setup/sound/";

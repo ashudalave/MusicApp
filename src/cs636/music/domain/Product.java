@@ -7,16 +7,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
 
-/**
- * One product, i.e., one music CD.
- * Like Murach pg. 649, except:
- * --uses BigDecimal for price, to keep money values precise
- * --is missing some derived attributes we don't really need
- * --has Set<Track> so we can work with Tracks in the service and presentation layers
- * Note that Products and Tracks are invariant objects in this webapp--they never change
- * so it's OK to let the presentation layer use them as is.
- * No setters are actually needed, but can be there for convenience
- */
 public class Product implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private long id;
